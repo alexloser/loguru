@@ -1,2 +1,0 @@
-# loguru
-My loguru library
