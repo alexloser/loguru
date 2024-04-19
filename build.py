@@ -33,7 +33,6 @@ DLL_LIST = [
     "loguru/_get_frame.py",
     "loguru/_handler.py",
     "loguru/_locks_machinery.py",
-    "loguru/_logger.py",
     "loguru/_recattrs.py",
     "loguru/_simple_sinks.py",
     "loguru/_string_parsers.py",
@@ -41,6 +40,7 @@ DLL_LIST = [
 
 PYC_LIST = [
     "loguru/__init__.py",
+    "loguru/_logger.py",
 ]
 
 
