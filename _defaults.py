@@ -36,7 +36,7 @@ LOGURU_FORMAT = env(
     "[<yellow>{file}:{line}</yellow>] <level>{message}</level>",
 )
 LOGURU_FILTER = env("LOGURU_FILTER", str, None)
-LOGURU_LEVEL = env("LOGURU_LEVEL", str, "D")
+LOGURU_LEVEL = env("LOGURU_LEVEL", str, "T")
 LOGURU_COLORIZE = env("LOGURU_COLORIZE", bool, None)
 LOGURU_SERIALIZE = env("LOGURU_SERIALIZE", bool, False)
 LOGURU_BACKTRACE = env("LOGURU_BACKTRACE", bool, True)
